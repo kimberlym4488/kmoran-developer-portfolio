@@ -1,0 +1,33 @@
+body{
+    background-color:#006837;
+    background-color:#3B9167;
+    background-color:#8ECAAC;
+    background-color:#D1F6E1;
+    background-color:#FFF1EB;
+    background-color:#EDA996;
+    background-color:#6F5E53;
+    background-color:#FFFFFF;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:stretch;
+}
+
+.website-frame{
+    display:flex;
+    justify-content:stretch;
+
+}
+
+span[data-tooltip]{
+    content:attr(data-tooltip);
+    position:absolute;
+    left:100%;
+    bottom:0%;
+    top:100%;
+    font-size:80%;
+    min-width:20px;
+    z-index:1;
+}
