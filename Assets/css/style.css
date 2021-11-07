@@ -1,20 +1,67 @@
 body{
     background-color:#006837;
     background-color:#3B9167;
-    background-color:#8ECAAC;
-    background-color:#D1F6E1;
     background-color:#FFF1EB;
     background-color:#EDA996;
     background-color:#6F5E53;
     background-color:#FFFFFF;
+    background-color:#8ECAAC;
+    background-color:#D1F6E1;
 }
 
-.header{
+
+  
+.hero {
+    height: 20rem;
+    width:100%;
+    background-size:cover;  
+    position:absolute;
+    z-index:0;
+}
+
+
+
+header {
+  
+    width: auto;
+    height:20rem;
+    z-index:0;
+  }
+/*The 1st flexbox container is nav*/
+nav{
     display:flex;
-    justify-content:space-between;
-    align-items:stretch;
+    flex-direction:row;
+    flex-wrap:wrap;
+    height:20rem;
+    color:#ffffff;
+    z-index:100;
 }
 
+h1{
+    justify-content: flex-start;
+    flex-grow:1;
+    font-size:20px;
+    font-weight:bold;
+    z-index:100;
+    margin-left:1em;
+    text-align:left;
+    align-items:flex-end;
+}
+
+.links{
+    
+    flex-grow:2;
+    text-align:right;
+    z-index:100;
+    text-decoration:none;
+    margin-right:1em;
+    list-style:none;
+  justify-items:flex-end;
+  align-content:flex-end;
+
+}
+
+/*
 .website-frame{
     display:flex;
     justify-content:stretch;
@@ -30,4 +77,5 @@ span[data-tooltip]{
     font-size:80%;
     min-width:20px;
     z-index:1;
-}
+}*/
+
