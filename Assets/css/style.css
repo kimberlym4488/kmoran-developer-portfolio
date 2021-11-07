@@ -23,23 +23,42 @@ header {
   }
 
 nav{
-    height:2rem;
+    display:table;
+    height:7rem;
+    box-sizing:border-box;
     color:#ffffff;
+    width:100%;
 
 }
-
+.nav-left{
+    display:table-row;
+    text-align:left;
+    vertical-align:center;
+}
 h1{
-  
-    font-size:3rem;
-    font-weight:bold;
+    display:inline-block;
+    font-size:1.5rem;
+    font-weight:normal;
     margin-left:1em;
     text-align:left;
+    line-height:1rem;
+  
 }
 
-.links{
-    
+.nav-right{
+    display:table-row;
+    text-align:right;
+    vertical-align:center;
+  
+}
+a{
+    display:inline-block;
     font-size:1.5rem;
-    margin-right:2px;
+    margin-right:1em;
+    text-decoration:none;
+    text-align:right;
+    line-height:1rem;
+
 }
 
 .hero {
@@ -48,9 +67,6 @@ h1{
     height:30vw;    
   
    
-}
-@media screen(920px){
-
 }
 
 
