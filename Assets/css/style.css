@@ -8,7 +8,7 @@ body{
     background-color:#D1F6E1;
     background-color:#EDA996;
 }
-
+/*
 .header-box{
   background-color:#eda996;
   width:10rem;
@@ -17,10 +17,15 @@ body{
   left:0px;
   z-index:50;
   font-size:20px;
+  font-weight:bold;
   text-align:right;
   padding-top:10px;
   padding-bottom:10px;
-  padding-right:1px;
+  padding-right:3px;
+}
+*/
+.font-size{
+  font-size:25px;
 }
 .navbar{
   z-index:0;
@@ -72,6 +77,9 @@ body{
 }
 /*Need help making my name bigger than the other items*/
 @media only screen and (max-width:768px){
+  .header-box{
+    display:none;
+  }
   .nav-list{
     flex-wrap:wrap;
     flex-direction:column;
