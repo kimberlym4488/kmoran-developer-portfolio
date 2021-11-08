@@ -12,7 +12,7 @@ body{
 .header-box a{
   background-color:#eda996;
   width:10rem;
-  position:static;
+  position:absolute;
   top:32px;
   left:0px;
   z-index:50;
@@ -72,20 +72,21 @@ body{
 }
 /*Need help making my name bigger than the other items*/
 @media only screen and (max-width:768px){
-  .header-box a{
-    width:100%;
-    padding:10 0 10 0;
-    margin:auto;
-    text-align:center;
-  }
+
+
 
   .nav-list{
     flex-wrap:wrap;
     flex-direction:column;
-    align-items:center;
     flex-basis:50%;
   }
-
+  .nav-item:nth-child(1){
+    width:100%;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#eda996;
+  }
   .nav-item:nth-child(n+2){
     border-bottom:2px black solid;
     padding:2px;
