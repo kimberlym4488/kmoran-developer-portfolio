@@ -9,9 +9,27 @@ body{
     background-color:#EDA996;
 }
 
+.header-box{
+  background-color:#eda996;
+  width:10rem;
+  position:absolute;
+  top:32px;
+  left:0px;
+  z-index:50;
+  font-size:20px;
+  text-align:right;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:1px;
+}
+.navbar{
+  z-index:0;
+  box-sizing:border-box;
+  box-shadow:0 0 10 white;
+}
 .nav-list{
   background:#d1f6e1;
-  box-shadow:0 0 10#8ECAAC;
+  box-shadow:0 0 10px#8ECAAC;
   margin:0%;
   padding:1rem 0;
   display:flex;
@@ -40,14 +58,7 @@ body{
   color:#FFF1EB;
 }
 
-.header-box{
-  background-color:#eda996;
-  height:40px;
-  width:60px;
-  position:relative;
 
-  top:20px;
-  bottom:20px;
   
 
 }
@@ -59,7 +70,7 @@ body{
     
   }
 }
-
+/*Need help making my name bigger than the other items*/
 @media only screen and (max-width:768px){
   .nav-list{
     flex-wrap:wrap;
@@ -78,4 +89,4 @@ body{
     padding:2px;
     } 
   }
-
+/*Need help with this section to make my name bigger than the other items*/
