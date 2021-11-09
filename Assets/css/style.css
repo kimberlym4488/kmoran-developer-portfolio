@@ -106,14 +106,40 @@ body{
   justify-content:space-evenly;
 }
 
-.flex-container > div{
+.flex-container div{
   background-color: #f1f1f1;
   width: 30%;
   height:auto;
-  margin: 10px;
+  margin:.5rem;
   text-align: center;
-  line-height: 75px;
+  line-height: 2rem;
   font-size: 30px;
+  flex-wrap:wrap;
+  justify-content:left;
 }
 
-.footer-cont
+.flex-container .About_me, .work, {
+  flex-grow:0;
+  text-align:center;
+  align-self:left;
+  border-right:right solid black 2px;
+  font-size:large;
+}
+
+.flex-container .All_about_me, .picture1, .footer{
+  text-align:left;
+  flex-basis:63%;
+
+}
+
+.flex-container .blank_spot{
+  background-color:none;
+  visibility:hidden;
+}
+.flex-container .picture3, .picture2 {
+  justify-content:flex-end;
+}
+
+
+
+
