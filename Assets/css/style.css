@@ -62,47 +62,12 @@ body{
   color:#FFF1EB;
 }
 
-
-@media only screen and (max-width:1024px){
-  .nav-list{
-    flex-wrap:wrap;
-    flex-basis:25%;
-    
-  }
-}
-/*Need help making my name bigger than the other items*/
-@media only screen and (max-width:768px){
-
-.header-box a{
-  width:100%;
-  margin:0;
-  padding:0;
-  text-align:center;
-}
-
-  .nav-list{
-    flex-wrap:wrap;
-    flex-direction:column;
-    flex-basis:50%;
-  }
-  .nav-item:nth-child(1){
-    width:100%;
-    text-align:center;
-    margin-left:auto;
-    margin-right:auto;
-    background-color:#eda996;
-  }
-  .nav-item:nth-child(n+2){
-    border-bottom:2px black solid;
-    padding:2px;
-    } 
-  }
 /*Starting a new section with new flex rows and columns*/
 
 .flex-container{
   display:flex;
   flex-wrap:wrap;
-  background-color:blue;
+  background-color:red;
   justify-content:space-evenly;
 }
 
@@ -110,6 +75,7 @@ body{
   background-color: #f1f1f1;
   width: 30%;
   height:auto;
+  border:purple solid 20px;
   margin:.5rem;
   text-align: center;
   line-height: 2rem;
@@ -118,28 +84,101 @@ body{
   justify-content:left;
 }
 
-.flex-container .About_me, .work, {
+.flex-container .About_me, {
   flex-grow:0;
   text-align:center;
   align-self:left;
-  border-right:right solid black 2px;
+  border: solid black 20px;
   font-size:large;
 }
 
-.flex-container .All_about_me, .picture1, .footer{
+.flex-container .All_about_me {
   text-align:left;
+  border:yellow solid 10px;
   flex-basis:63%;
+}
 
+.flex-container .work{
+  flex-grow:0:
 }
 
 .flex-container .blank_spot{
   background-color:none;
   visibility:hidden;
 }
-.flex-container .picture3, .picture2 {
-  justify-content:flex-end;
+.flex-container div.picture1 {
+  border:black solid 20px;
+  flex-basis:63%;
+  
+}
+/*can't figure out how to make images shrink into frame*/
+.flex-container .picture1 img{
+  border:yellow 20px solid;
+  box-sizing:border-box;
+  max-width:100%;
 }
 
+.flex-container .picture2 img{
+  border:yellow 20px solid;
+  box-sizing:border-box;
+  max-width:100%;
+}
+
+.flex-container .picture3 img{
+  border:yellow 20px solid;
+  box-sizing:border-box;
+  max-width:100%;
+}
+/*Media screen size laptop or tablet*/
+
+@media only screen and (max-width:1024px){
+  .nav-list{
+    flex-wrap:wrap;
+    flex-basis:50%;
+    
+  }
+
+  
+/*Need help centering my name in the smaller size*/
+@media only screen and (max-width:768px){
+
+  .header-box a{
+    width:100%;
+    margin:0;
+    padding:0;
+    text-align:center;
+  }
+}
+
+  .nav-list{
+    flex-wrap:wrap;
+    flex-direction:column;
+    flex-basis:50%;
+   
+  }
+
+  .nav-item a{
+    margin-left:0;
+    border:black solid 10px;
+  
+  }
 
 
+  .nav-item:nth-child(1){
+    width:100%;
+    text-align:center;
+    margin-left:0;
+    margin-right:0;
+    background-color:#eda996;
+    
+  }
+  .nav-item:nth-child(n+2){
+    border-bottom:2px black solid;
+    padding:2px;
+  }
 
+  .navbar ul{
+    padding-inline-start:0;
+    margin-block-start:0;
+    list-style-type:none;
+  }
