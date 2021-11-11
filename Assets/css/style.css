@@ -37,7 +37,7 @@ body{
   margin:0%;
   padding:.5rem 0;
   display:flex;
-  justify-content:flex-end;
+  border:black 20px solid;
   align-items:center;
 }
 
@@ -84,7 +84,7 @@ body{
   justify-content:left;
 }
 
-.flex-container .About_me, {
+.flex-container .About_me {
   flex-grow:0;
   text-align:center;
   align-self:left;
@@ -99,7 +99,7 @@ body{
 }
 
 .flex-container .work{
-  flex-grow:0:
+  flex-grow:0;
 }
 
 .flex-container .blank_spot{
@@ -107,11 +107,10 @@ body{
   visibility:hidden;
 }
 .flex-container div.picture1 {
-  border:black solid 20px;
   flex-basis:63%;
   
 }
-/*can't figure out how to make images shrink into frame*/
+
 .flex-container .picture1 img{
   border:yellow 20px solid;
   box-sizing:border-box;
@@ -132,15 +131,46 @@ body{
 /*Media screen size laptop or tablet*/
 
 @media only screen and (max-width:1024px){
-  .nav-list{
+  .header-box a{
+    width:100%;
+    margin:0;
+    padding:0;
+    text-align:center;
+  }
+    .nav-list{
+      background:#d1f6e1;
+      box-shadow:0 0 10px#8ECAAC;
+      margin:0%;
+      padding:.5rem 0;
+      display:flex;
+      flex-direction:column;
+      border:black 20px solid;
+      align-items:center;
+      text-decoration:underline;
+    }
+
+  .flex-container{
+    display:flex;
     flex-wrap:wrap;
-    flex-basis:50%;
-    
+    background-color:red;
+
+  }
+  
+  .flex-container div{
+    background-color: #f1f1f1;
+    height:auto;
+    border:purple solid 20px;
+    margin:.5rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 30px;
+    flex-basis:75%;
+    box-sizing:border-box;
   }
 
   
-/*Need help centering my name in the smaller size*/
-@media only screen and (max-width:768px){
+/*Sm
+@media only screen and (min-width:0px max-width:768px){
 
   .header-box a{
     width:100%;
@@ -152,15 +182,16 @@ body{
 
   .nav-list{
     flex-wrap:wrap;
-    flex-direction:column;
-    flex-basis:50%;
-   
+    flex-direction:row;
+    flex-basis:100%;
+    justify-content:space-evenly;
   }
 
   .nav-item a{
     margin-left:0;
     border:black solid 10px;
-  
+    flex-basis:100%;
+    justify-content:space-evenly;
   }
 
 
@@ -181,4 +212,23 @@ body{
     padding-inline-start:0;
     margin-block-start:0;
     list-style-type:none;
+  }
+
+  .flex-container{
+    display:flex;
+    flex-wrap:wrap;
+    background-color:red;
+
+  }
+  
+  .flex-container div{
+    background-color: #f1f1f1;
+    height:auto;
+    border:purple solid 20px;
+    margin:.5rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 30px;
+    flex-basis:75%;
+    box-sizing:border-box;
   }
