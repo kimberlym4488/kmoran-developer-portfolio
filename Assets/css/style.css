@@ -23,6 +23,7 @@ body{
   padding-right:5px;
   padding-left:40px;
   letter-spacing:1.2px;
+  box-shadow:2.5px 2.5px 2.5px white;
   
 }
 /*Begin nav bar!*/
@@ -94,6 +95,7 @@ div.hero{
   text-decoration:none;
   color:white;
   font-weight:bold;
+  box-shadow:-2.5px 2.5px 2.5px white;
 }
 /*Begin new section with flexbox including the images and About me, Work, and Contact Me sections*/
 
@@ -148,12 +150,11 @@ div.hero{
   position:relative;
 
 }
- #Sub-title{
+ #Sub-title1{
   background-color:rgb(0, 213, 255);
   text-decoration:none;
   position:absolute;
-bottom:2rem;
- left:.5rem;
+  bottom:2rem;
  padding-left:1.5rem;
  padding-right:.5rem;
  font-weight:bold;
@@ -165,30 +166,29 @@ bottom:2rem;
   box-sizing:border-box;
   max-width:100%;
   align-self:center;
+  box-shadow:2.5px 2.5px 2.5px black;
 
 }
 
-/*the box that overlays on picture1*//*
-.sub-title1{
-  background-color:rgb(0,212,255);
-  padding:10px;
-  padding-left:30px;
-  text-align:left;
-  position:absolute;
-  text-decoration:none;
-  color:white;
-  font-weight:bold;
-}
-*/
 .flex-container .picture2 img{
   box-sizing:border-box;
   max-width:100%;
 
 }
+/*The three picutres all have this assignment as it allows the sub-title to fit in the picture with a position relative. Also adds box shadow. */
+.flex-container div.picture2{
+  position:relative;
+  box-shadow:2.5px 2.5px 2.5px black;
+}
 
 .flex-container .picture3 img{
   box-sizing:border-box;
   max-width:100%;
+  box-shadow:2.5px 2.5px 2.5px black;
+}
+
+.flex-container div.picture3{
+  position:relative;
 }
 /*Flexbox row containing Contact-me and Footer Section*/
 
