@@ -206,7 +206,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,92,121,1) 23%, rgba
    
   }
   
-    .nav-list{
+  .nav-list{
       background:#d1f6e1;
       box-shadow:0 0 10px white;
       margin:0%;
@@ -219,15 +219,21 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,92,121,1) 23%, rgba
       
     }
 
-    .nav-list a{
+  .nav-list a{
       text-decoration:none;
     }
+
+  div.hero{
+    padding-top:20px;
+    padding-bottom:20px;
+  }
 
   .flex-container{
     display:flex;
     flex-wrap:wrap;
     justify-content:space-evenly;
     text-align:center;
+    
   }
   
   .flex-container div{
@@ -238,15 +244,24 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,92,121,1) 23%, rgba
     font-size: 30px;
     flex-basis:80%;
     box-sizing:border-box;
+    
   }
 
+  .flex-container  .About_me {
+    border-right:none;
+  }
+  .flex-container  .work {
+    border-right:none;
+  }
   .flex-container .All_about_me{
     text-align:center;
   }
 
-  .flex-container div #Contact-me{
+  .flex-container #Contact-me{
     padding-bottom:none;
     margin-bottom:none;
+    border-right:none;
+    
   }
 
   .flex-container footer{
