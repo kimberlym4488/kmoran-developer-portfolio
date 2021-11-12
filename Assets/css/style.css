@@ -14,65 +14,76 @@ body{
   background:  rgb(0, 213, 255);
   width:fit-content;
   position:absolute;
-  top:6px;
+  top:5px;
   left:0px;
   z-index:50;
   text-align:right;
-  padding-top:2px;
-  padding-bottom:3px;
-  padding-right:5px;
-  padding-left:40px;
-  letter-spacing:1.2px;
   box-shadow:2.5px 2.5px 2.5px white;
+  opacity:85%;
   
 }
 /*Begin nav bar!*/
+
+header{
+  position:relative;
+  top:0px;
+}
 .navbar{
   z-index:0;
   box-sizing:border-box;
-  box-shadow:0 0 10 white;
+  background:#D1F6E1;
+
 }
 .nav-list{
-  background:#d1f6e1;
-  box-shadow:0 0 10px#8ECAAC;
   margin:0%;
-  padding:0 0;
   display:flex;
   align-items:center;
+  
 }
 
 .nav-item{
   list-style-type: none;
   margin:0rem;
   padding:1rem;
+
 }
 
 .nav-item a{
-  text-decoration:underline;
+  text-decoration:none;
   color:black;
   font-weight:bold;
-  letter-spacing: 1px;
-  
+  letter-spacing: .5px;
+  padding-top:1rem;
+  padding-bottom:1rem;
+  padding-left:1rem;
+  padding-right:1rem;
 }
 .nav-item a:hover{
   color:#FFF1EB;
   background-color:rgb(0, 213, 255);
-  padding:.5rem;
+
 }
 .nav-item:nth-child(1){
   margin-right:auto;
   font-weight:bolder;
-  text-align:center;
   size:fit-content;
   pointer-events:none;
+
 }
 
 .font-size a{
-  font-size:25px;
+  font-size:30px;
   text-decoration:none;
   color:white;
-  letter-spacing:1.2px;
+  letter-spacing:1px;
+  text-align:right;
+  margin-top:.25rem;
+  padding-top:0rem;
+  padding-bottom:0rem;
+  padding-left:4rem
+
 }
+
 /*End nav bar. Begin Hero image and subtitle*/
 
 div.hero{
@@ -96,6 +107,7 @@ div.hero{
   color:white;
   font-weight:bold;
   box-shadow:-2.5px 2.5px 2.5px white;
+  opacity:85%;
 }
 /*Begin new section with flexbox including the images and About me, Work, and Contact Me sections*/
 
@@ -173,12 +185,13 @@ div.hero{
 .flex-container .picture2 img{
   box-sizing:border-box;
   max-width:100%;
+  box-shadow:2.5px 2.5px 2.5px black;
 
 }
 /*The three picutres all have this assignment as it allows the sub-title to fit in the picture with a position relative. Also adds box shadow. */
 .flex-container div.picture2{
   position:relative;
-  box-shadow:2.5px 2.5px 2.5px black;
+  
 }
 
 .flex-container .picture3 img{
@@ -231,8 +244,9 @@ footer{
 }
 
 footer a:hover{
-  color:white;
+  color:black;
   background-color:rgb(0, 213, 255);
+  
 }
 
 /*Media screen size laptop or tablet*/
@@ -249,11 +263,10 @@ footer a:hover{
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,92,121,1) 23%, rgba(0,212,255,1) 100%);
    
   }
-  
+
   .nav-list{
-      background:#d1f6e1;
       box-shadow:0 0 10px white;
-      margin:0%;
+      margin:2%;;
       padding:.5rem 0;
       display:flex;
       flex-direction:column;
