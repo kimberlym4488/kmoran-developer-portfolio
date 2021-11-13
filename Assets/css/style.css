@@ -47,7 +47,6 @@ header{
   padding:1rem;
 
 }
-
 .nav-item a{
   text-decoration:none;
   color:black;
@@ -94,6 +93,7 @@ div.hero{
   z-index:25;
   background: rgb(0,212,255);
   background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(9,92,121,1) 52%, rgba(2,0,36,1) 100%);
+  position:relative;
 }
 /*The box that overlays on the hero image*/
 .sub-title{
@@ -108,6 +108,14 @@ div.hero{
   font-weight:bold;
   box-shadow:-2.5px 2.5px 2.5px white;
   opacity:85%;
+}
+
+/*My picture in the header*/
+.hero #my-picture {
+ 
+  position:absolute;
+  height:3rem;
+  width:2rem;
 }
 /*Begin new section with flexbox including the images and About me, Work, and Contact Me sections*/
 
