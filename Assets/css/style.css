@@ -114,8 +114,13 @@ div.hero{
 .hero #my-picture {
  
   position:absolute;
-  height:3rem;
-  width:2rem;
+  margin:2rem 2rem 2rem 4rem;
+  height:6rem;
+  width:auto;
+  top:0px;
+  border-radius:10%;
+  box-shadow:-2.5px 2.5px 2.5px white;
+  
 }
 /*Begin new section with flexbox including the images and About me, Work, and Contact Me sections*/
 
@@ -144,6 +149,10 @@ div.hero{
   border-right:black solid 5px;
   padding:2rem;
 
+}
+
+#About_me img{
+  display:none;
 }
 
 .flex-container .All_about_me {
@@ -289,6 +298,12 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,92,121,1) 23%, rgba
   div.hero{
     padding-top:20px;
     padding-bottom:20px;
+
+  }
+
+  .hero #my-picture {
+    display:none;
+    
   }
 
   .flex-container{
@@ -313,10 +328,24 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,92,121,1) 23%, rgba
   .flex-container  #About_me {
     border-right:none;
     text-align:center;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+    line-height:3rem;
   }
+
+  #About_me img{
+    height:5rem;
+    width:auto;
+    border-radius:10%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
   .flex-container  #work {
     border-right:none;
     text-align:center;
+   
   }
 
   .flex-container .work{
@@ -324,9 +353,11 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,92,121,1) 23%, rgba
   }
   .flex-container .All_about_me{
     text-align:center;
+   
   }
 
   .flex-container #Contact-me{
+    display:100%;
     padding-bottom:none;
     margin-bottom:none;
     border-right:none;
