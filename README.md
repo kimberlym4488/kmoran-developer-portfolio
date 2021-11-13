@@ -3,7 +3,7 @@ Portfolio page for web developer Kim Moran.
 > * Highlights my current work and contact info in one place!
 
 ## Project Homepage
-https://kimberlym4488.github.io/kmoran-developer-portforlio
+https://kimberlym4488.github.io/kmoran-developer-portfolio
 
 ## Project documentation URL
 https://github.com/kimberlym4488/kmoran-developer-portfolio
