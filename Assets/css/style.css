@@ -7,9 +7,16 @@ body{
     background-color:#8ECAAC;
     background-color:#D1F6E1;
     background-color:#E3f2eb;
-    background-color:rgb(0, 213, 255,.1);
+    background-color:rgb(0, 213, 255,.8);
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
 }
 /*Begin nav bar!*/
+
+.navbar-brand,a.nav-link, footer, footer .btn{
+  font-family: 'Staatliches', cursive;
+  font-size:1.2rem;
+}
 a.nav-link{
   padding:1rem;
   -webkit-box-shadow: 0px 10px 14px -9px rgba(255,255,255,0.75);
@@ -25,12 +32,14 @@ a.nav-link:hover{
 }
 
 .header{
-  background: rgb(0,214,255);
-background: linear-gradient(203deg, rgba(0,214,255,1) 0%, rgba(0,0,0,1) 23%);
+  font-family: 'Staatliches', cursive;
+  background:rgb(0,0,0,.6)
+
+
 }
 
 .profilePic:hover{
-  height:120px;
+  height:180px;
   width:auto;
 }
 
@@ -46,6 +55,7 @@ body {
 	place-content: center;
 	border: solid .75em rgba(0,0,0, .03);
 	height:150px;
+  width:auto;
 	box-shadow: 1px 1px 2.5px rgba(0,0,0, .2), 
 							1px 1px 8.5px rgba(0,0,0, .35), 
 							1px 1px 12.5px rgba(0,0,0, .5);
@@ -93,121 +103,30 @@ body {
 
 /*End nav bar. 
 
-/*Begin new section with flexbox including the images and About me, Work, and Contact Me sections*/
-
-.flex-container{
-  display:flex;
-  flex-wrap:wrap;
+/*Begin new section with flexbox including the images and About me, and work*/
+main{
+  background:transparent;
+  color:white;
 }
-
-.flex-container div{
-  width: 30%;
-  height:auto;
-  margin:.5rem;
-  padding:.5rem;
-  text-align: center;
-  line-height: 2rem;
-  font-size: 30px;
-  flex-wrap:wrap;
-  justify-content:left;
-
-}
-
-.flex-container #About_me {
-  flex-grow:0;
-  text-align:right;
-  align-self:left;
-  border-right:black solid 5px;
-  padding:2rem;
-
-}
-
-#About_me img{
-  display:none;
-}
-
-.flex-container .All_about_me {
-  text-align:left;
-  flex-basis:63%;
-  font-size:small;
-}
-
-.flex-container .myWords{
-  flex-basis:63%;
-  font-size:small;
-  text-align:left;
-}
-
-.flex-container .profilePic
-
-
-.flex-container #work{
-  flex-grow:0;
-  padding:2rem;
-  text-align:right;
-  border-right:black solid 5px;
-}
-.flex-container .work{
-  flex-grow:0;
-  padding:2rem;
-  text-align:right;
-  border-right:black solid 5px;
-}
-
-.flex-container div.picture1 {
-  flex-basis:63%;
-  position:relative;
-
-}
-
-.flex-container .picture1 img{
-  box-sizing:border-box;
-  max-width:100%;
-  align-self:center;
-  box-shadow:2.5px 2.5px 2.5px black;
-
-}
-
-.flex-container .picture2 img{
-  box-sizing:border-box;
-  max-width:100%;
-  box-shadow:2.5px 2.5px 2.5px black;
-
-}
-/*The three picutres all have this assignment as it allows the sub-title to fit in the picture with a position relative. Also adds box shadow. */
-.flex-container div.picture2{
-  position:relative;
-  
-}
-
-.flex-container .picture3 img{
-  box-sizing:border-box;
-  max-width:100%;
-  box-shadow:2.5px 2.5px 2.5px black;
-}
-
-.flex-container div.picture3{
-  position:relative;
-}
-/*Flexbox row containing Contact-me and Footer Section*/
 
 footer{
   flex-basis:100%;
   text-align:center;
   justify-items:center;
   align-self:center;
-  color:white;
+  color:black;
+  
 }
 
 .footer{
   background: rgb(0,214,255);
-  background: linear-gradient(22deg, rgba(0,214,255,1) 0%, rgba(0,0,0,1) 23%);
+  color:black;
 }
 
 
 .btn-group-vertical .btn{
   background-color:black;
-  color:rgb(0, 213, 255);
+  color:white;
   transition-duration:4ms;
   -webkit-box-shadow: 0px 10px 14px -9px rgba(255,255,255,0.75);
   -moz-box-shadow: 0px 10px 14px -9px rgba(255,255,255,0.75);
