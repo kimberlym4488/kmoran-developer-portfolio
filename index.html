@@ -1,75 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Assets/css/reset.css"/>
-    <link rel="stylesheet" href="./Assets/css/style.css"/>
+    <link rel="stylesheet" href="./Assets/css/reset.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Assets/css/style.css" />
     <title>Kim Moran - Portfolio</title>
 </head>
+
 <body>
 
-    <header>
-        <nav class="navbar">  
-            <ul class=nav-list>
-                <li class="nav-item font-size header-box"><a>Kim Moran</a></li>
-                <li class="nav-item"><a href="#About_me">About Me</a></li>
-                <li class="nav-item"><a href="#work">Work</a></li> 
-                <li class="nav-item"><a href="#Contact-me">Contact Me</a></li> 
-                <li class="nav-item"><a href="#">Resume</a></li>
-                
-            </ul>    
+    <header class="sticky-top">
+        <!--Icon and my name-->
+        <nav class="navbar  navbar-expand-lg  navbar-dark bg-dark">
+            <p class="navbar-brand">
+                <img src="./Assets/images/Kim-profile-pic.jpg" width="40" height="50"
+                    class="d-inline-block align-center" alt="">
+                Kim Moran
+            </p>
+            <!--Mobile-responsive menu classes-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--NavBar items, change to hamburger on mobile-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About me<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">My work</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#Contact-me">Contact Me</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Resume</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-<div class="hero">
-    <a class="sub-title" href="#Contact-me">Let's Create</a>  
-    <img id="my-picture" src="./Assets/images/Kim-profile-pic.jpg"></img>
-</div>
+    <!--Main container, about me and my work-->
+    <section class="Website-Frame">
+        <div class="flex-container">
+            <div id="About_me">About Me<img src="./Assets/images/Kim-profile-pic.jpg"></img></div>
+            <div class="All_about_me">I'm a creative problem solver with a love for technology. I love learning new
+                things and overcoming a challenge. My experience with various software programs and working on a team
+                has helped me to become a well-rounded, experienced, and reliable teammate.</div>
 
-        <section class="Website-Frame">
-                <div class="flex-container">
-                    <div id="About_me">About Me<img src="./Assets/images/Kim-profile-pic.jpg"></img></div>
-                    <div class="All_about_me">I'm a creative problem solver with a love for technology. I love learning new things and overcoming a challenge. My experience with various software programs and working on a team has helped me to become a well-rounded, experienced, and reliable teammate.</div>
-                   
-                    <div id="work">Work</div> 
-                    <div class="picture1">
-                        <a id="Sub-title1" href="https://moranconational.com" target="_blank" >Sample Home Page</a>
-                        <img src="Assets/images/Website-Preview-Image.png" alt="Website-Prevew"></img>
-                    </div>
+            <div id="work">Work</div>
+            <div class="picture1">
+                <a id="Sub-title1" href="https://moranconational.com" target="_blank">Sample Home Page</a>
+                <img src="Assets/images/Website-Preview-Image.png" alt="Website-Prevew"></img>
+            </div>
 
-                    <div class="work"></div> 
-                    <div class="picture2">
-                        <a id="Sub-title1" href="https://moranconational.com/education-foundation" target="_blank">Sample Grid Page</a> 
-                        <img src="Assets/images/Foundation-Page-Preview.png" alt="Grid Image Preview"></img>
-                    </div>
-
-
-                    <div class="picture3">
-                        <a id="Sub-title1" href="https://moranconational.com/employee-benefit-plans" target="_blank">Sample Product Page</a>
-                        <img src="Assets/images/Benefits-Preview-Page.png"></img>
-                    </div>  
-                  
-                   
-
-                    
-                             <div id="Contact-me">Contact Me</div>
-                             <footer class="footer">
-                            <a href="https://github.com">GitHub</a>
-                            <a href="https://twitter.com/kimmersm">Twitter</a>
-                            <a href="https://linkedin.com">LinkedIn</a>
-                            <a href="tel:509-555-5555">Call Me</a>
-                            <a href="mail:kimberlym@comcast.net">E-mail Me</a>
-                             </footer>
-                            </div>
-                  
-        
-                    
-                </div>
+            <div class="work"></div>
+            <div class="picture2">
+                <a id="Sub-title1" href="https://moranconational.com/education-foundation" target="_blank">Sample Grid
+                    Page</a>
+                <img src="Assets/images/Foundation-Page-Preview.png" alt="Grid Image Preview"></img>
+            </div>
 
 
-        </section>
+            <div class="picture3">
+                <a id="Sub-title1" href="https://moranconational.com/employee-benefit-plans" target="_blank">Sample
+                    Product Page</a>
+                <img src="Assets/images/Benefits-Preview-Page.png"></img>
+            </div>
+    </section>
+    <!--Footer: Row on desktop, column on mobile-->
+    <footer>
+
+        <ul class="navbar-nav justify-content-center align-items-center mr-auto footer">
+            <p class="navbar-brand">Let's Create!</p>
+            <div class="btn-group btn-group-lg" role="group" aria-label="...">
+
+                <button type="button" class="btn"  href="https://github.com/kimberlym4488">GitHub</button>
+
+                <button type="button" class="btn"
+                    href="https://www.linkedin.com/in/kim-moran-82158371">LinkedIn</button>
+
+                <button type="button" class="btn"  aria-label="E-mail" href="mail:kmorandev@gmail.com">
+                    E-mail Me</button>
+
+            </div>
+        </ul>
+    </footer>
+
+
 
 </body>
+
 </html>
