@@ -109,6 +109,16 @@ main{
   color:white;
 }
 
+#aboutMe, .myWork{
+  -webkit-box-shadow: 0px 6px 10px -9px rgba(255,255,255,0.75);
+  -moz-box-shadow: 0px 6px 10px -9px rgba(255,255,255,0.75);
+  box-shadow: 0px 6px 10px -9px rgba(255,255,255,0.75);
+}
+
+#letsCreate{
+
+  font-size:1.5rem;
+}
 footer{
   flex-basis:100%;
   text-align:center;
@@ -119,8 +129,8 @@ footer{
 }
 
 .footer{
-  background: rgb(0,214,255);
-  color:black;
+  color: rgb(0,214,255);
+ background-color:black;
 }
 
 
@@ -135,7 +145,7 @@ footer{
 .btn-Wide .btn{
   margin-bottom:1.5rem;
   background-color:black;
-  color:rgb(0, 213, 255);
+  color:white;
   position:relative;
   -webkit-box-shadow: 0px 10px 14px -9px rgba(255,255,255,0.75);
   -moz-box-shadow: 0px 10px 14px -9px rgba(255,255,255,0.75);
