@@ -20,17 +20,17 @@ Kimberlym4488
 
 ## Responsive Project Preview 
 Main page with my 'Work' dropdowns disabled
->[![Portfolio-Preview1](https://user-images.githubusercontent.com/92805933/148343710-3c61db81-55f7-4703-95d5-965eadfc2ea0.PNG)
+>[![Portfolio-Preview1](https://user-images.githubusercontent.com/92805933/148343710-3c61db81-55f7-4703-95d5-965eadfc2ea0.PNG)](https://kimberlym4488.github.io/kmoran-developer-portfolio)
 
 ## Functionality and Features
 Drop-Down clicked with accordion images. Header is sticky with transparency.
->![Portfolio-Preview2](https://user-images.githubusercontent.com/92805933/148343842-a424565d-3fd5-4b15-8d29-9b606bc0fe42.PNG)
+>[![Portfolio-Preview2](https://user-images.githubusercontent.com/92805933/148343842-a424565d-3fd5-4b15-8d29-9b606bc0fe42.PNG)](https://kimberlym4488.github.io/kmoran-developer-portfolio)
 
 Accordion captions, project links, and responsive footer buttons
->[ ![Portfolio-Preview3](https://user-images.githubusercontent.com/92805933/148343963-94898c26-a553-4828-a5ea-97a28437a0a4.PNG)
+>[ ![Portfolio-Preview3](https://user-images.githubusercontent.com/92805933/148343963-94898c26-a553-4828-a5ea-97a28437a0a4.PNG)](https://kimberlym4488.github.io/kmoran-developer-portfolio)
 
 Hamburger menu with responsive/color change buttons
->![Portfolio-Preview4](https://user-images.githubusercontent.com/92805933/148344048-0e99ff38-e3c4-43ea-83d3-b2b3a986ae6f.png)
+>[![Portfolio-Preview4](https://user-images.githubusercontent.com/92805933/148344048-0e99ff38-e3c4-43ea-83d3-b2b3a986ae6f.png)](https://kimberlym4488.github.io/kmoran-developer-portfolio)
    
 ## Features
 
