@@ -19,25 +19,26 @@ Kim Moran
 Kimberlym4488
 
 ## Responsive Project Preview 
-(Click Image to see live page)
+Main page with my 'Work' dropdowns disabled
+>[![Portfolio-Preview1](https://user-images.githubusercontent.com/92805933/148343710-3c61db81-55f7-4703-95d5-965eadfc2ea0.PNG)
 
->[
+## Functionality and Features
+Drop-Down clicked with accordion images. Header is sticky with transparency.
+>![Portfolio-Preview2](https://user-images.githubusercontent.com/92805933/148343842-a424565d-3fd5-4b15-8d29-9b606bc0fe42.PNG)
 
+Accordion captions, project links, and responsive footer buttons
+>[ ![Portfolio-Preview3](https://user-images.githubusercontent.com/92805933/148343963-94898c26-a553-4828-a5ea-97a28437a0a4.PNG)
 
-## Full Window Project Preview 
-(Click Image to see live page)
-
->[    
-
-
-
+Hamburger menu with responsive/color change buttons
+>![Portfolio-Preview4](https://user-images.githubusercontent.com/92805933/148344048-0e99ff38-e3c4-43ea-83d3-b2b3a986ae6f.png)
+   
 ## Features
 
 The following is included in my portfolio page:
 
 > * A current photo.
 > * Links to the navigation bar that take the user to that specific area of the page.
-> * Images with my previous development work.
+> * Images, captions, and links to my previous development work.
 > * Clickable links with description tags where the user can view my work on the external website.
 > * One larger header image toward the top with the home page of my work and clickable link.
 > * Media query ensures responsiveness on all screen sizes.
@@ -46,14 +47,3 @@ The following is included in my portfolio page:
 ## Summary
 
 By combining my work history and social/contact links, an employer or colleague can easily view all of my information in one convenient place. This page functions well on any screen size and includes semantic html functionality.
-
-## License
-The MIT License (MIT)
-
-Copyright (c) 2021 Kimberly Moran
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
