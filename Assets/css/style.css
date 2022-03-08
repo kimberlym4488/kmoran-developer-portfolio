@@ -1,208 +1,200 @@
-body{
-    background-color:#006837;
-    background-color:#3B9167;
-    background-color:#FFF1EB;
-    background-color:#6F5E53;
-    background-color:#FFFFFF;
-    background-color:#8ECAAC;
-    background-color:#D1F6E1;
-    background-color:#E3f2eb;
-    background-color:rgb(0, 213, 255,.8);
-    background-color: #000000;
-    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
-    white-space:wrap!important;
+body {
+  background-color: #006837;
+  background-color: #3b9167;
+  background-color: #fff1eb;
+  background-color: #6f5e53;
+  background-color: #ffffff;
+  background-color: #8ecaac;
+  background-color: #d1f6e1;
+  background-color: #e3f2eb;
+  background-color: rgb(0, 213, 255, 0.8);
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+  white-space: wrap !important;
 }
 /*Begin nav bar!*/
 
-.navbar-brand,a.nav-link, footer, footer .btn{
-  font-family: 'Staatliches', cursive;
-  font-size:1.2rem;
+.navbar-brand,
+a.nav-link,
+footer,
+footer .btn {
+  font-family: "Staatliches", cursive;
+  font-size: 1.2rem;
 }
-a.nav-link{
-  padding:1rem;
-  -webkit-box-shadow: 0px 10px 14px -9px rgba(255,255,255,0.75);
-  -moz-box-shadow: 0px 10px 14px -9px rgba(255,255,255,0.75);
-  box-shadow: 0px 6px 10px -9px rgba(255,255,255,0.75);
-
+a.nav-link {
+  padding: 1rem;
+  -webkit-box-shadow: 0px 10px 14px -9px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 0px 10px 14px -9px rgba(255, 255, 255, 0.75);
+  box-shadow: 0px 6px 10px -9px rgba(255, 255, 255, 0.75);
 }
-a.nav-link:hover{
-  font-size:1.1rem;
-  background-color:rgb(0, 213, 255);
-  color:black!important;
-  transition-duration:.4ms;
-}
-
-.header{
-  font-family: 'Staatliches', cursive;
-  background:rgb(0,0,0,.6)
-
+a.nav-link:hover {
+  font-size: 1.1rem;
+  background-color: rgb(0, 213, 255);
+  color: black !important;
+  transition-duration: 0.4ms;
 }
 
-.profilePic:hover{
-  height:180px;
-  width:auto;
+.header {
+  font-family: "Staatliches", cursive;
+  background: rgb(0, 0, 0, 0.95);
+}
+
+.profilePic:hover {
+  height: 180px;
+  width: auto;
 }
 
 .profilePic {
-
-	place-content: center;
-	border: solid .75em rgba(0,0,0, .03);
-	height:150px;
-  width:auto;
-	box-shadow: 1px 1px 2.5px rgba(0,0,0, .2), 
-							1px 1px 8.5px rgba(0,0,0, .35), 
-							1px 1px 12.5px rgba(0,0,0, .5);
-  background-image:url(/kmoran-developer-portfolio/Assets/images/Kim-profile-pic.jpg);
-	background:   50%/ cover 
-								border-box /* background-origin */
-								padding-box /* background-clip */;
-	color: #ffffff;
+  place-content: center;
+  border: solid 0.75em rgba(0, 0, 0, 0.03);
+  height: 150px;
+  width: auto;
+  box-shadow: 1px 1px 2.5px rgba(0, 0, 0, 0.2),
+    1px 1px 8.5px rgba(0, 0, 0, 0.35), 1px 1px 12.5px rgba(0, 0, 0, 0.5);
+  background-image: url(/kmoran-developer-portfolio/Assets/images/Kim-profile-pic.jpg);
+  background: 50% / cover border-box /* background-origin */ padding-box
+    /* background-clip */;
+  color: #ffffff;
 }
-	
-	.profilePic:before {
-		position: absolute;
-		z-index: -1; /* put it *behind* parent */
-		/* go outside padding-box by 
+
+.profilePic:before {
+  position: absolute;
+  z-index: -1; /* put it *behind* parent */
+  /* go outside padding-box by 
 		 * a border-width ($b) in every direction */
-		border-top: .75em; 
-    border-right: .75em;
-    border-bottom: .75em; 
-    border-left: .75em;
-		border: inherit;
-		border-color: transparent;
-		background: inherit;
-		background-clip: border-box;
-		/* -webkit-prefixed version 
+  border-top: 0.75em;
+  border-right: 0.75em;
+  border-bottom: 0.75em;
+  border-left: 0.75em;
+  border: inherit;
+  border-color: transparent;
+  background: inherit;
+  background-clip: border-box;
+  /* -webkit-prefixed version 
 		 * still needed for 
 		 * some mobile browsers  */
-		-webkit-filter: blur(4.5px);
-						filter: blur(4.5px);
-		/* -webkit-prefixed version 
+  -webkit-filter: blur(4.5px);
+  filter: blur(4.5px);
+  /* -webkit-prefixed version 
 		 * still needed for 
 		 * some mobile browsers */
-		-webkit-clip-path: inset(0);
-						clip-path: inset(0);
-	}
+  -webkit-clip-path: inset(0);
+  clip-path: inset(0);
+}
 
-.navbar-brand{
-  padding:1rem;
-  margin:0rem;
- }
+.navbar-brand {
+  padding: 1rem;
+  margin: 0rem;
+}
 
- .navbar-dark .navbar-toggler {
-  color: rgba(255,255,255);
-  border-color: rgba(255,255,255);
- } 
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255);
+  border-color: rgba(255, 255, 255);
+}
 
 /*End nav bar. 
 
 /*Begin new section with flexbox including the images and About me, and work*/
-main{
-  background:transparent;
-  color:white;
+main {
+  background: transparent;
+  color: white;
 }
 
-#aboutMe, .myWork{
-  -webkit-box-shadow: 0px 6px 10px -9px rgba(255,255,255,0.75);
-  -moz-box-shadow: 0px 6px 10px -9px rgba(255,255,255,0.75);
-  box-shadow: 0px 6px 10px -9px rgba(255,255,255,0.75);
+#aboutMe,
+.myWork {
+  -webkit-box-shadow: 0px 6px 10px -9px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 0px 6px 10px -9px rgba(255, 255, 255, 0.75);
+  box-shadow: 0px 6px 10px -9px rgba(255, 255, 255, 0.75);
 }
 
-#letsCreate{
-
-  font-size:1.5rem;
+#letsCreate {
+  font-size: 1.5rem;
 }
-footer{
-  flex-basis:100%;
-  text-align:center;
-  justify-items:center;
-  align-self:center;
-  color:black;
-  
+footer {
+  flex-basis: 100%;
+  text-align: center;
+  justify-items: center;
+  align-self: center;
+  color: black;
 }
 
-.footer{
-  color: rgb(0,214,255);
- background-color:black;
+.footer {
+  color: rgb(0, 214, 255);
+  background-color: black;
 }
 
-.card-header .btn{
-  white-space:wrap!important;
+.card-header .btn {
+  white-space: wrap !important;
 }
 
-.btn-group-vertical .btn{
-  background-color:black;
-  color:white;
-  transition-duration:4ms;
-  -webkit-box-shadow: 0px 10px 14px -9px rgba(255,255,255,0.75);
-  -moz-box-shadow: 0px 10px 14px -9px rgba(255,255,255,0.75);
-  box-shadow: 0px 6px 10px -9px rgba(255,255,255,0.75);
+.btn-group-vertical .btn {
+  background-color: black;
+  color: white;
+  transition-duration: 4ms;
+  -webkit-box-shadow: 0px 10px 14px -9px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 0px 10px 14px -9px rgba(255, 255, 255, 0.75);
+  box-shadow: 0px 6px 10px -9px rgba(255, 255, 255, 0.75);
 }
-.btn-Wide .btn{
-  margin-bottom:1.5rem;
-  background-color:black;
-  color:white;
-  position:relative;
-  -webkit-box-shadow: 0px 10px 14px -9px rgba(255,255,255,0.75);
-  -moz-box-shadow: 0px 10px 14px -9px rgba(255,255,255,0.75);
-  box-shadow: 0px 6px 10px -9px rgba(255,255,255,0.75);
-}
-
-.btn-Wide .btn:hover{
-  background-color:rgb(0, 213, 255);
-  color:black;
+.btn-Wide .btn {
+  margin-bottom: 1.5rem;
+  background-color: black;
+  color: white;
+  position: relative;
+  -webkit-box-shadow: 0px 10px 14px -9px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 0px 10px 14px -9px rgba(255, 255, 255, 0.75);
+  box-shadow: 0px 6px 10px -9px rgba(255, 255, 255, 0.75);
 }
 
-#btn-group-vertical{
-  display:none;
- }
-
-#buttonOne,#buttonTwo,#buttonThree{
-  white-space:normal
+.btn-Wide .btn:hover {
+  background-color: rgb(0, 213, 255);
+  color: black;
 }
 
+#btn-group-vertical {
+  display: none;
+}
 
+#buttonOne,
+#buttonTwo,
+#buttonThree {
+  white-space: normal;
+}
 
 /*Media screen size laptop or tablet*/
 
-@media only screen and (max-width:900px){
-
-
-  .flex-container .myWords{
-    flex-basis:100%;
-    font-size:small;
-    text-align:center;
-
-  }
-  
-  .flex-container .profilePic{
-    flex-basis:100%;
-    justify-content:center;
+@media only screen and (max-width: 900px) {
+  .flex-container .myWords {
+    flex-basis: 100%;
+    font-size: small;
+    text-align: center;
   }
 
-  footer button.btn{
-    margin-bottom:1rem;
-    background-color:rgb(0, 213, 255);
-    color:black;
+  .flex-container .profilePic {
+    flex-basis: 100%;
+    justify-content: center;
   }
 
-  footer button.btn:hover{
-    margin-bottom:1rem;
-    background-color:rgb(0, 213, 255);
-    color:black;
+  footer button.btn {
+    margin-bottom: 1rem;
+    background-color: rgb(0, 213, 255);
+    color: black;
   }
 
- #btn-group-vertical{
-   display:block;
+  footer button.btn:hover {
+    margin-bottom: 1rem;
+    background-color: rgb(0, 213, 255);
+    color: black;
   }
 
-
-#btn-Wide{
-    display:none;
+  #btn-group-vertical {
+    display: block;
   }
 
-.btn-Wide .btn{
-    display:none;
+  #btn-Wide {
+    display: none;
   }
 
+  .btn-Wide .btn {
+    display: none;
+  }
 }
